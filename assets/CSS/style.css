@@ -9,13 +9,13 @@
     font-size: 18px;
     color: #1f1f1f;
   }
-  /* Jumbotron */
+  /* JUMBOTRON */
   h1 {
     font-family: 'Kaushan Script', cursive;
     color: #180081;
     text-shadow: 0 0 3vw #1eadff;
   }
-/* Neon Glow for H1 */
+/* NEON GLOW for H1 */
 .neon {
   animation: neon 1s ease infinite;
   -moz-animation: neon 1s ease infinite;
@@ -40,7 +40,7 @@
     white-space: pre-wrap;
   }
   
-  /* Calendar */
+  /* CALENDAR */
   .textarea {
     background: transparent;
     resize: none;

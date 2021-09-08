@@ -11,22 +11,16 @@ window.onload = function(){
     fivePM();
    }
   
-  // WHEN I open the planner
-  // THEN the current day and time is displayed at the top of the calendar
-  
+  //CURRENT DATE AND TIME//
   var currentDay = moment().format("dddd LL");
   $("#currentDay").append(currentDay);
   
   var currentTime = moment().format("LT");
   $("#currentTime").append(currentTime);
   
-  // WHEN I scroll down
-  // THEN I am presented with timeblocks for standard business hours
-  // WHEN I view the timeblocks for that day
-  // THEN each timeblock is color coded to indicate whether it is in the past (gray), present (red), or future (green)
-  
+//HOURS//
   var now = new Date().getHours();
-  
+  // BLOCK COLOR CHANGE ON THE HOUR//
   function colorCode() {
     if (now > 9) {
       $("#comment9am").addClass("past");
@@ -93,13 +87,9 @@ window.onload = function(){
     }
   }
   
-  
-  // WHEN I click into a timeblock
-  // THEN I can enter an event
-  // WHEN I click the save button for that timeblock
-  // THEN the text for that event is saved in local storage
-  // WHEN I refresh the page
-  // THEN the saved events persist
+//ENTERING TEXT IN TIMEBLOCK//
+//SAVING TEXT IN TIMEBLOCK//
+//EVENTS STILL SAVED AFTER REFRESH//
   
   function nineAM() {
     var input_textarea = document.querySelector("#comment9am");
