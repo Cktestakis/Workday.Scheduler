@@ -12,8 +12,8 @@
   /* Jumbotron */
   h1 {
     font-family: 'Kaushan Script', cursive;
-    color: #fc1717;
-    text-shadow: 0 0 3vw #d1c407;
+    color: #180081;
+    text-shadow: 0 0 3vw #1eadff;
   }
 /* Neon Glow for H1 */
 .neon {
@@ -21,19 +21,6 @@
   -moz-animation: neon 1s ease infinite;
   -webkit-animation: neon 1s ease infinite;
 }
-
-/* @keyframes neon {
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #fa1c16, 0 0 3vw #fa1c16, 0 0 10vw #fa1c16, 0 0 10vw #fa1c16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914; 
-    color: #FED128;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #800e0b, 0 0 1.5vw #800e0b, 0 0 5vw #800e0b, 0 0 5vw #800e0b, 0 0 .2vw #800e0b, .5vw .5vw .1vw #40340A;
-    color: #806914
-  }
-} */
-
 
   p.lead {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
